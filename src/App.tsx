@@ -1,10 +1,11 @@
 import React from 'react';
+import {NavBarr} from "./NavBarr";
 
 
-function App() {
-  return (
-    <p> Hello react</p>
-  );
+const App: React.FC = () => {
+    return <>
+        <NavBarr/>
+    </>
 }
 
 export default App;
